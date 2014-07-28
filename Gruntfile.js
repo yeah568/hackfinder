@@ -1,4 +1,4 @@
-// Generated on 2014-07-28 using generator-angular 0.8.0
+// Generated on 2014-05-19 using generator-angular 0.8.0
 'use strict';
 
 // # Globbing
@@ -15,9 +15,17 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  grunt.loadNpmTasks('grunt-gh-pages');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    },
     // Project settings
     yeoman: {
       // configurable paths
@@ -271,6 +279,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
+            'hackathons.json',
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
