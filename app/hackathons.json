@@ -1,0 +1,38 @@
+[
+    {
+        "name": "nwHACKS",
+        "start": "January 9, 2015",
+        "end": "January 11, 2015",
+        "location": "University of British Columbia",
+        "lat": "49.260605",
+        "lng": "-123.245994",
+        "site": "http://nwhacks.com/"
+    },
+    {
+        "name": "YHack",
+        "start": "October 31, 2014",
+        "end": "November 2, 2014",
+        "location": "Yale University",
+        "lat": "41.316324",
+        "lng": "-72.922343",
+        "site": "http://www.yhack.org/"
+    },
+    {
+        "name": "Hack the North",
+        "start": "September 19, 2014",
+        "end": "September 21, 2014",
+        "location": "University of Waterloo",
+        "lat": "43.472285",
+        "lng": "-80.544858",
+        "site": "http://hackthenorth.com/"
+    },
+    {
+        "name": "UofTHacks",
+        "start": "September 26, 2014",
+        "end": "September 28. 2014",
+        "location": "University of Toronto",
+        "lat": "43.662892",
+        "lng": "-79.395656",
+        "site": "https://uofthacks.com/"
+    }
+]
